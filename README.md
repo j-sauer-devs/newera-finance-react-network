@@ -8,12 +8,11 @@ A decentralized automated trading protocol built on Uniswap v4 that enables limi
 
 ## 🎯 Problem Solved
 
-Traditional DEX trading requires constant monitoring and manual execution. This project addresses:
+Our current DEX trading requires constant monitoring and manual execution. This project addresses:
 
 - **Automated Limit Orders**: Execute trades when price targets are reached
 - **Dollar Cost Averaging**: Spread purchases over time to reduce volatility impact
-- **Cross-Chain Automation**: Seamless execution across multiple blockchain networks
-- **Gas-Efficient Execution**: Reactive triggers minimize unnecessary blockchain interactions
+
 
 ## 🏗️ Architecture
 
@@ -49,16 +48,15 @@ Traditional DEX trading requires constant monitoring and manual execution. This 
 This project is submitted for the Reactive Network Grant Program. See [GRANT_APPLICATION.md](GRANT_APPLICATION.md) for complete grant application details including:
 
 - Comprehensive problem statement and solution architecture
-- 4-milestone development roadmap
+- 2-milestone development roadmap
 - Technical specifications and workflow documentation
 - Grant payment structure and deliverables
 
 ### Milestones Summary
 
-1. **Core Reactive Infrastructure & Limit Orders** - $4,000
-2. **DCA Orders Implementation** - $3,500
-3. **Cross-Chain Expansion & UI Integration** - $4,000
-4. **Production Deployment & Monitoring** - $3,500
+1. RSC Development & Testnet Integration
+2. Mainnet Deployment & Production Integration
+
 
 ## 🚀 Quick Start
 
