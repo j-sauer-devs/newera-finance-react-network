@@ -74,3 +74,17 @@ function react(LogRecord calldata log) external vmOnly {
         emit Callback(destinationChainId, callback, GAS_LIMIT, payload);
     }
 }
+```
+
+## Mainnet example
+
+**Scenario**: User places a dca order for 0.01 cusdo to usdc on arbitrum
+
+#### Step 1: Order Placement
+**Transaction**: User calls `placeLimitOrder()` on Hook contract
+https://arbiscan.io/tx/0x0e0c8292160d2631fdd2fb465872e57a88f127af497e5675bf03c7541745a09f
+
+#### Step 2: Reactive Network Trigger
+**Time**: Every minute, Reactive Network emits cron event
+
+**Reactscan**: [Reactscan Link](https://reactscan.net/address/0x9f7d6c65188bbaad3d76ff0de53ff600a6bdf569/4)
